@@ -1,0 +1,3 @@
+# Copy this file to local.properties and adjust paths for your Termux setup
+sdk.dir=/data/data/com.termux/files/usr/opt/android-sdk
+ndk.dir=/data/data/com.termux/files/usr/opt/android-sdk/ndk/26.1.10909125

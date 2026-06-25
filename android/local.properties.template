@@ -1,0 +1,36 @@
+# MANU AI — J.A.R.V.I.S. Edition v2.0
+# Part 1/20 — Project Foundation, Dependencies, and Theme Setup
+# File: android/local.properties.template
+# Generated: 2026-06-24
+
+# ============================================================
+# Android SDK / NDK Paths for Termux Environment
+# Copy this file to local.properties and update paths
+# ============================================================
+
+# Android SDK Path (Termux)
+sdk.dir=/data/data/com.termux/files/home/android-sdk
+
+# Android NDK Path (Termux)
+ndk.dir=/data/data/com.termux/files/home/android-sdk/ndk/26.1.10909125
+
+# CMake Path (if needed)
+cmake.dir=/data/data/com.termux/files/usr/bin/cmake
+
+# Java Home (Termux OpenJDK)
+# org.gradle.java.home=/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk
+
+# ============================================================
+# SETUP INSTRUCTIONS:
+# 1. Install Android SDK in Termux:
+#    pkg install android-sdk
+#
+# 2. Install NDK:
+#    cd ~/android-sdk && ./cmdline-tools/bin/sdkmanager --install "ndk;26.1.10909125"
+#
+# 3. Copy this template:
+#    cp android/local.properties.template android/local.properties
+#
+# 4. Build the app:
+#    cd android && ./gradlew assembleRelease
+# ============================================================

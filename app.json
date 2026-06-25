@@ -1,0 +1,25 @@
+{
+  "name": "ManuAI",
+  "displayName": "MANU AI — J.A.R.V.I.S. Edition",
+  "version": "2.0.0",
+  "description": "Personal Automation Engine / Family Protection AI",
+  "adMobAppId": "ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy",
+  "permissions": [
+    "android.permission.ACCESSIBILITY_SERVICE",
+    "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.INTERNET",
+    "android.permission.CAMERA",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_SMS",
+    "android.permission.SEND_SMS",
+    "android.permission.CALL_PHONE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.termux.permission.RUN_COMMAND"
+  ]
+}

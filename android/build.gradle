@@ -1,0 +1,42 @@
+// MANU AI — J.A.R.V.I.S. Edition v2.0
+// Part 1/20 — Project Foundation, Dependencies, and Theme Setup
+// File: android/build.gradle
+// Generated: 2026-06-24
+
+// ============================================================
+// Project-Level Gradle Configuration
+// React Native 0.74.3 | Android ARM64 | Termux Build
+// ============================================================
+
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 26
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.22"
+
+        // Hermes DISABLED — x86_64 compiler incompatible with Termux
+        hermesEnabled = false
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.2.2")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "$rootDir/../node_modules/react-native/android" }
+    }
+}

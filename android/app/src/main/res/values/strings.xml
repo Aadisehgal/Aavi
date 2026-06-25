@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MANU AI — J.A.R.V.I.S. Edition v2.0 -->
+<!-- TODO: Implement strings.xml -->
+<resources>
+    <string name="app_name">MANU AI</string>
+    <string name="accessibility_service_description">MANU AI Accessibility Service for device automation</string>
+</resources>
