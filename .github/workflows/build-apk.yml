@@ -77,7 +77,7 @@ jobs:
 
       - name: Setup keystore
         run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > android/app/manu-release.keystore
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/manu-release.keystore
 
       - name: Build Release APK
         run: |
