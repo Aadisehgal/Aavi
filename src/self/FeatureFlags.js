@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 17/20 — Self-Evolution Features 101-125
 // File: src/self/FeatureFlags.js
 // Generated: 2026-06-24
 // Feature 120: Feature Flag System — A/B test, gradual rollout
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const FEATURE_FLAGS_KEY = '@manu_ai/feature_flags';
 const USER_ASSIGNMENTS_KEY = '@manu_ai/feature_assignments';

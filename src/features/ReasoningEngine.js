@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 14/20 — Proactive Consciousness Features 26-50
 // File: src/features/ReasoningEngine.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const REASONING_KEY = '@manu_ai_reasoning_sessions';
 const MAX_SESSIONS = 50;

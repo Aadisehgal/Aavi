@@ -1,8 +1,9 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // File: src/features/PriorityInbox.js
 // Feature 45 — AI Priority Inbox: ranks messages by urgency and sender trust
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import NotificationAI from './NotificationAI';
 import TrustScore from './TrustScore';
 

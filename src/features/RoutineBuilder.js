@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Smart Routine Builder)
 // File: src/features/RoutineBuilder.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const ROUTINE_KEY = '@manu_ai_routines';
 const ACTIVE_ROUTINE_KEY = '@manu_ai_active_routine';

@@ -1,8 +1,9 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // File: src/features/TrustScore.js
 // Feature 44 — Dynamic contact trust scoring engine
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const STORAGE_KEY = '@manu_ai_trust_scores';
 

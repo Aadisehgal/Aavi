@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Conversation Continuity)
 // File: src/features/ConversationStack.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const CONVERSATION_KEY = '@manu_ai_conversations';
 const ACTIVE_CONVERSATION_KEY = '@manu_ai_active_conversation';

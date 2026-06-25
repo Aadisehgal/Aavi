@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 14/20 — Proactive Consciousness Features 26-50
 // File: src/features/WeatherSuggest.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const WEATHER_CACHE_KEY = '@manu_ai_weather_cache';
 const WEATHER_SETTINGS_KEY = '@manu_ai_weather_settings';

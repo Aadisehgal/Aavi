@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Fire/Smoke Detection
 // File: src/security/FireDetect.js
 // Generated: 2026-06-25
 
 import { NativeModules, NativeEventEmitter } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { CameraModule, AudioModule } = NativeModules;
 const cameraEmitter = CameraModule ? new NativeEventEmitter(CameraModule) : null;

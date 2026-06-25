@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 19/20 — Radicalization Monitor (Feature 181)
 // File: src/security/RadicalMonitor.js
@@ -16,7 +17,6 @@ import {
   Animated,
   Alert,
   TextInput,
-  AsyncStorage,
 } from 'react-native';
 
 const RADICAL_KEYWORDS = [

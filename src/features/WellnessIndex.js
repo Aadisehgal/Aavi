@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Emotional Wellness Index)
 // File: src/features/WellnessIndex.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const MOOD_KEY = '@manu_ai_mood_entries';
 const WELLNESS_KEY = '@manu_ai_wellness_index';

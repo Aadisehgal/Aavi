@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — USB Device Monitor
 // File: src/self/USBMonitor.js
 // Generated: 2026-06-25
 
 import { NativeModules, NativeEventEmitter, Platform } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { USBModule } = NativeModules;
 const usbEmitter = USBModule ? new NativeEventEmitter(USBModule) : null;

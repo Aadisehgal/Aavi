@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 19/20 — Bluetooth Attack Detection (Feature 194)
 // File: src/security/BTAttack.js
@@ -15,7 +16,6 @@ import {
   StyleSheet,
   Animated,
   Alert,
-  AsyncStorage,
 } from 'react-native';
 
 const BT_ATTACK_TYPES = [

@@ -1,8 +1,9 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // File: src/features/SMSFilter.js
 // Feature 43 — AI-powered SMS spam and phishing filter
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const STORAGE_KEY = '@manu_ai_sms_filter';
 

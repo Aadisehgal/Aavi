@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 17/20 — Self-Evolution Features 101-125
 // File: src/self/RestorePoint.js
 // Generated: 2026-06-24
 // Feature 119: Restore Point Manager — System restore point create
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const RESTORE_POINTS_KEY = '@manu_ai/restore_points';
 const MAX_RESTORE_POINTS = 10;

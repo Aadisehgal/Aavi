@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Emulator Detection
 // File: src/self/EmulatorDetect.js
 // Generated: 2026-06-25
 
 import { NativeModules, Platform } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { DeviceInfo, SecurityModule } = NativeModules;
 

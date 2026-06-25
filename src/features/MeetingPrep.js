@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 14/20 — Proactive Consciousness Features 26-50
 // File: src/features/MeetingPrep.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const MEETING_KEY = '@manu_ai_meeting_prep';
 const TEMPLATES_KEY = '@manu_ai_meeting_templates';

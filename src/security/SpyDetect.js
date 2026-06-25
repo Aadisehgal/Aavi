@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 19/20 — Spyware Detection / Privacy Audit Scanner (Feature 188)
 // File: src/security/SpyDetect.js
@@ -15,7 +16,6 @@ import {
   StyleSheet,
   Animated,
   Alert,
-  AsyncStorage,
 } from 'react-native';
 
 const DANGEROUS_PERMISSIONS = [

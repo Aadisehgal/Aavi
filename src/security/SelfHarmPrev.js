@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 19/20 — Self-Harm Prevention (Feature 175)
 // File: src/security/SelfHarmPrev.js
@@ -17,7 +18,6 @@ import {
   Alert,
   Linking,
   TextInput,
-  AsyncStorage,
 } from 'react-native';
 
 const SELF_HARM_KEYWORDS = [

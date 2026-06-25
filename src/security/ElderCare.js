@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Elderly Care Mode
 // File: src/security/ElderCare.js
 // Generated: 2026-06-25
 
 import { NativeModules, NativeEventEmitter } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { SensorModule, LocationModule, AudioModule } = NativeModules;
 const sensorEmitter = SensorModule ? new NativeEventEmitter(SensorModule) : null;

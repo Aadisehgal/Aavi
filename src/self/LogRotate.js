@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 17/20 — Self-Evolution Features 101-125
 // File: src/self/LogRotate.js
 // Generated: 2026-06-24
 // Feature 112: Log Rotation Manager — Old logs archive, compress, delete
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const LOG_ARCHIVE_KEY = '@manu_ai/log_archive';
 const ROTATION_CONFIG_KEY = '@manu_ai/log_rotation_config';

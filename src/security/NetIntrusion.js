@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 19/20 — Network Intrusion Detection (Feature 190)
 // File: src/security/NetIntrusion.js
@@ -15,7 +16,6 @@ import {
   StyleSheet,
   Animated,
   Alert,
-  AsyncStorage,
 } from 'react-native';
 
 const MOCK_DEVICES = [

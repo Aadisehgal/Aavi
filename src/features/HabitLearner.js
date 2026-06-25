@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Habit Pattern Learner)
 // File: src/features/HabitLearner.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const HABIT_KEY = '@manu_ai_habits';
 const ROUTINE_KEY = '@manu_ai_learned_routines';

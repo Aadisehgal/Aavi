@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Decoy App Container
 // File: src/security/DecoyContainer.js
 // Generated: 2026-06-25
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 class DecoyContainer {
   constructor() {

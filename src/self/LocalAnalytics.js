@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 17/20 — Self-Evolution Features 101-125
 // File: src/self/LocalAnalytics.js
 // Generated: 2026-06-24
 // Feature 121: Usage Analytics Local — Privacy-first usage stats
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const ANALYTICS_DATA_KEY = '@manu_ai/analytics_data';
 const ANALYTICS_CONFIG_KEY = '@manu_ai/analytics_config';

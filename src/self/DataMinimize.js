@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Data Minimization Engine
 // File: src/self/DataMinimize.js
 // Generated: 2026-06-25
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const RETENTION_POLICIES = {
   '@manu_voice_logs': 7,

@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Sarcasm & Humor Detection)
 // File: src/features/HumorEngine.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const LEARNED_KEY = '@manu_ai_humor_learned';
 

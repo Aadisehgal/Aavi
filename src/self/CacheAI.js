@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 17/20 — Self-Evolution Features 101-125
 // File: src/self/CacheAI.js
 // Generated: 2026-06-24
 // Feature 110: Cache Intelligence — Smart cache, auto-clear old
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const CACHE_PREFIX = '@manu_ai/cache_';
 const CACHE_META_KEY = '@manu_ai/cache_metadata';

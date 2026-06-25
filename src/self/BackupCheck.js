@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 17/20 — Self-Evolution Features 101-125
 // File: src/self/BackupCheck.js
 // Generated: 2026-06-24
 // Feature 118: Backup Integrity Checker — Backup corrupt check, auto-fix
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const BACKUP_REGISTRY_KEY = '@manu_ai/backup_registry';
 const INTEGRITY_LOG_KEY = '@manu_ai/integrity_log';

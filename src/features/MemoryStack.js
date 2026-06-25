@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Contextual Memory Stack)
 // File: src/features/MemoryStack.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const MEMORY_KEY = '@manu_ai_memory_stack';
 const SESSION_KEY = '@manu_ai_current_session';

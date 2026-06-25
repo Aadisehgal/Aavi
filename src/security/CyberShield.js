@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Cyberbullying Shield
 // File: src/security/CyberShield.js
 // Generated: 2026-06-25
 
 import { NativeModules } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { SMSModule, NotificationModule } = NativeModules;
 

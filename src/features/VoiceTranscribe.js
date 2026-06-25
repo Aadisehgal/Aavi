@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // File: src/features/VoiceTranscribe.js
 // Feature 46 — Real-time voice transcription using Whisper / on-device STT
 
 import { NativeModules, NativeEventEmitter, Platform } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { WakeWordModule } = NativeModules;
 const STORAGE_KEY = '@manu_ai_transcripts';

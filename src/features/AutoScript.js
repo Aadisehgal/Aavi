@@ -1,9 +1,10 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 13/20 — Proactive Consciousness Features (Auto-Command Scripting)
 // File: src/features/AutoScript.js
 // Generated: 2026-06-24
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const SCRIPT_KEY = '@manu_ai_auto_scripts';
 const EXECUTION_LOG_KEY = '@manu_ai_script_executions';

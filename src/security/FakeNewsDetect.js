@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 19/20 — Fake News Detector (Feature 182)
 // File: src/security/FakeNewsDetect.js
@@ -16,7 +17,6 @@ import {
   Animated,
   Alert,
   TextInput,
-  AsyncStorage,
 } from 'react-native';
 
 const SUSPICIOUS_PATTERNS = [

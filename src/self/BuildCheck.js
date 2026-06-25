@@ -1,10 +1,11 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 18/20 — Build Environment Checker
 // File: src/self/BuildCheck.js
 // Generated: 2026-06-25
 
 import { NativeModules, Platform } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const { TermuxBridge, DeviceInfo } = NativeModules;
 
