@@ -707,7 +707,7 @@ export default function ToolsScreen({ navigation }) {
               <Text style={{ color: '#66BB6A' }}>✓ No root required</Text>{'\n'}
               <Text style={{ color: '#66BB6A' }}>✓ All tools pre-installed</Text>{'\n'}
               <Text style={{ color: '#66BB6A' }}>✓ Isolated environment</Text>{'\n\n'}
-              To install:{\n'}
+              To install:{'\n'}
               <Text style={styles.codeBlock}>pkg install proot-distro{'\n'}proot-distro install kali{'\n'}proot-distro login kali</Text>
               {'\n'}Once inside Kali, all tools (including aircrack-ng, wifite, etc.) work out of the box.
             </Text>
