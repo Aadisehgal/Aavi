@@ -40,3 +40,19 @@ allprojects {
         maven { url "$rootDir/../node_modules/react-native/android" }
     }
 }
+
+subprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            android {
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_17
+                    targetCompatibility JavaVersion.VERSION_17
+                }
+                if (project.hasProperty('kotlin')) {
+                    kotlinOptions { jvmTarget = '17' }
+                }
+            }
+        }
+    }
+}
