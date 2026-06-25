@@ -1,4 +1,3 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 11/20 — Tools Arsenal (ToolsScreen.js)
 // File: src/screens/ToolsScreen.js
@@ -18,7 +17,6 @@ import {
   Dimensions,
   Platform,
   NativeModules,
-  AsyncStorage,
   ActivityIndicator,
 } from 'react-native';
 
@@ -1108,3 +1106,4 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
 });
+import AsyncStorage from '@react-native-async-storage/async-storage';
