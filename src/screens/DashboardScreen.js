@@ -1,3 +1,4 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 9/20 — 3D Avatar and Dashboard HUD Interface
 // File: src/screens/DashboardScreen.js

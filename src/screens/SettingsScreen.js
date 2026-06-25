@@ -16,7 +16,6 @@ import {
   Alert,
   Modal,
   NativeModules,
-  AsyncStorage,
   Dimensions,
   ActivityIndicator,
   Platform,

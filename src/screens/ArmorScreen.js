@@ -1,3 +1,4 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // File: src/screens/ArmorScreen.js
 // Purpose: Armor Mode dashboard — security shield, threat level, emergency controls

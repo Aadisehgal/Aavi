@@ -1,3 +1,4 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // File: src/screens/ChatScreen.js
 // Purpose: J.A.R.V.I.S. conversational AI chat interface
