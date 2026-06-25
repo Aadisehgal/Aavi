@@ -193,9 +193,9 @@ class ExpensePattern {
     const percentage = (spent / this.budget.monthlyLimit) * 100;
 
     if (percentage >= this.budget.alertThreshold && percentage < 100) {
-      await this.sendBudgetAlert('warning', `You've spent ${percentage.toFixed(0)}% of your monthly budget.`);
+      await this.sendBudgetAlert('warning', `You have spent ${percentage.toFixed(0)}% of your monthly budget.`);
     } else if (percentage >= 100) {
-      await this.sendBudgetAlert('critical', `Budget exceeded! You've spent ${spent.toFixed(2)} / ${this.budget.monthlyLimit}`);
+      await this.sendBudgetAlert('critical', `Budget exceeded! You have spent ${spent.toFixed(2)} / ${this.budget.monthlyLimit}`);
     }
 
     // Category alerts

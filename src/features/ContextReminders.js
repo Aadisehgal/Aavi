@@ -194,7 +194,7 @@ class ContextReminders {
       },
       {
         title: 'Study Break',
-        message: 'You've been studying for a while. Take a 5-minute break.',
+        message: 'You have been studying for a while. Take a 5-minute break.',
         context: { type: 'app', value: 'study_mode', duration: 45 },
         options: { recurring: true, maxTriggersPerDay: 5, priority: 'normal' },
       },

@@ -55,7 +55,7 @@ class SleepPredictor {
   }
 
   /**
-   * Predict tonight's sleep quality based on today's patterns.
+   * Predict tonights sleep quality based on today's patterns.
    */
   async predictTonight() {
     const todayUsage = await this._getTodayUsage();

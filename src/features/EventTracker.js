@@ -50,7 +50,7 @@ class EventTracker {
           if (contact.birthday) {
             await this.addEvent({
               type: 'birthday',
-              title: `${contact.name}'s Birthday`,
+              title: `${contact.name}  Birthday`,
               personName: contact.name,
               date: this.normalizeBirthday(contact.birthday),
               source: 'contacts',

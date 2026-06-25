@@ -233,8 +233,8 @@ class ThreatShield {
       abuse: {
         keywords: ['hate you', 'disgusting', 'disappoint', 'failure', 'useless', 'burden', 'mistake', 'regret', 'wish you', 'never born'],
         patterns: [
-          { name: 'emotional_abuse', regex: /\b(you are a|you\'re a).{0,15}(mistake|disappointment|failure|burden)\b/i, weight: 2.5 },
-          { name: 'gaslighting', regex: /\b(you\'re imagining|that never happened|you\'re crazy|you\'re overreacting)\b/i, weight: 2.0 },
+          { name: 'emotional_abuse', regex: /\b(you are a|you are a).{0,15}(mistake|disappointment|failure|burden)\b/i, weight: 2.5 },
+          { name: 'gaslighting', regex: /\b(you are imagining|that never happened|you are crazy|you are overreacting)\b/i, weight: 2.0 },
           { name: 'isolation', regex: /\b(don\'t talk to|stay away from|nobody believes you)\b/i, weight: 2.0 },
         ],
         weight: 2.5,
@@ -244,15 +244,15 @@ class ThreatShield {
         patterns: [
           { name: 'secrecy_pressure', regex: /\b(don\'t tell anyone|this is our secret|keep it between us)\b/i, weight: 3.0 },
           { name: 'inappropriate_request', regex: /\b(send me (a )?pic|send photos|show me)\b/i, weight: 3.5 },
-          { name: 'age_grooming', regex: /\b(you\'re mature|you seem older|grown up for your age)\b/i, weight: 2.5 },
+          { name: 'age_grooming', regex: /\b(you are mature|you seem older|grown up for your age)\b/i, weight: 2.5 },
         ],
         weight: 3.0,
       },
       self_harm: {
-        keywords: ['cut myself', 'hurt myself', 'end it all', 'no point', 'better off dead', 'can\'t go on', 'give up', 'suicide', 'overdose', 'die', 'kill myself'],
+        keywords: ['cut myself', 'hurt myself', 'end it all', 'no point', 'better off dead', 'cannot go on', 'give up', 'suicide', 'overdose', 'die', 'kill myself'],
         patterns: [
-          { name: 'suicidal_ideation', regex: /\b(i want to die|i wish i was dead|end my life|can\'t take it anymore)\b/i, weight: 3.5 },
-          { name: 'self_harm_plan', regex: /\b(i\'m going to|plan to|thinking about).{0,15}(hurt myself|cut|overdose|jump)\b/i, weight: 3.0 },
+          { name: 'suicidal_ideation', regex: /\b(i want to die|i wish i was dead|end my life|cannot take it anymore)\b/i, weight: 3.5 },
+          { name: 'self_harm_plan', regex: /\b(i am going to|plan to|thinking about).{0,15}(hurt myself|cut|overdose|jump)\b/i, weight: 3.0 },
           { name: 'hopelessness', regex: /\b(no reason to live|nothing matters|everyone would be better off)\b/i, weight: 2.5 },
         ],
         weight: 3.5,

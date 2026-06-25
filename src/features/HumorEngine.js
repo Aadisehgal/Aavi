@@ -230,11 +230,11 @@ class HumorEngine {
       { name: 'laugh_indicators', regex: /\b(lol|lmao|rofl|haha|hehe|hahaha)\b/i, weight: 2.0 },
       { name: 'joke_structure', regex: /\b(why did the|what do you call|knock knock|what happens when)\b/i, weight: 2.5 },
       { name: 'pun_indicators', regex: /\b(no pun intended|pun intended|wordplay|play on words)\b/i, weight: 1.5 },
-      { name: 'funny_reaction', regex: /\b(that\'s hilarious|too funny|can\'t stop laughing|dying)\b/i, weight: 1.8 },
+      { name: 'funny_reaction', regex: /\b(that is hilarious|too funny|cannot stop laughing|dying)\b/i, weight: 1.8 },
       { name: 'meme_reference', regex: /\b(bruh|fam|sus|no cap|based|cringe|vibe|mood|slay)\b/i, weight: 1.0 },
-      { name: 'exaggeration', regex: /\b(literally dying|literally dead|i can\'t even|i\'m dead)\b/i, weight: 1.5 },
+      { name: 'exaggeration', regex: /\b(literally dying|literally dead|i cannot even|i am dead)\b/i, weight: 1.5 },
       { name: 'emoji_indicators', regex: /[😂🤣😆😄😁🤪😜😝🙃]/, weight: 1.5 },
-      { name: 'self_deprecating', regex: /\b(i\'m such a|typical me|story of my life|just my luck)\b/i, weight: 1.2 },
+      { name: 'self_deprecating', regex: /\b(i am such a|typical me|story of my existence|just my luck)\b/i, weight: 1.2 },
     ];
   }
 

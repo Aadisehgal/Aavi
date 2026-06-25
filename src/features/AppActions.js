@@ -138,7 +138,7 @@ class AppActions {
         case 'usage_reminder':
           await this.showNotification(
             '⏰ Usage Limit',
-            `You've been using this app for ${rule.limitMinutes}+ minutes. Consider a break.`,
+            `You have been using this app for ${rule.limitMinutes}+ minutes. Consider a break.`,
             { action: 'usage_alert', packageName }
           );
           break;
