@@ -129,7 +129,7 @@ const TOOL_CATEGORIES = [
     color: '#EF5350',
     tools: [
       { id: 'john', name: 'John', icon: '👤', desc: 'John the Ripper password cracker', cmd: 'john', args: '--help' },
-      { id: 'hashcat', name: 'Hashcat', icon: '💻', desc: 'World's fastest password cracker', cmd: 'hashcat', args: '--help' },
+      { id: 'hashcat', name: 'Hashcat', icon: '💻', desc: 'World fastest password cracker', cmd: 'hashcat', args: '--help' },
       { id: 'openssl', name: 'OpenSSL', icon: '🔒', desc: 'Cryptography toolkit', cmd: 'openssl', args: 'version' },
       { id: 'gpg', name: 'GPG', icon: '✉️', desc: 'GNU Privacy Guard', cmd: 'gpg', args: '--version' },
       { id: 'md5sum', name: 'MD5Sum', icon: '#️⃣', desc: 'MD5 checksum utility', cmd: 'md5sum', args: '--help' },
