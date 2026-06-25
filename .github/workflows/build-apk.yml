@@ -89,7 +89,7 @@ jobs:
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleRelease --info \
+          ./gradlew assembleRelease --debug \
             --no-daemon \
             --stacktrace \
             -Pandroid.injected.signing.store.file=$GITHUB_WORKSPACE/android/app/manu-release.keystore \
