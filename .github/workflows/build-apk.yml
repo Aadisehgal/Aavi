@@ -31,6 +31,12 @@ jobs:
       - name: Install dependencies
         run: yarn install --no-immutable
 
+      - name: Fix react-native dependency in node_modules
+        run: |
+          find node_modules -name "build.gradle" | xargs grep -l "react-native:+" 2>/dev/null | while read f; do
+            sed -i "s|com.facebook.react:react-native:+|com.facebook.react:react-android:0.74.3|g" "$f"
+          done
+
       - name: Fix buildConfig for all node_modules
         run: |
           find node_modules -name "build.gradle" | while read f; do
