@@ -4,6 +4,7 @@
 // Generated: 2026-06-24
 
 package com.manu.ai.modules
+import com.manu.ai.MainActivity
 
 import android.content.Intent
 import android.os.Build

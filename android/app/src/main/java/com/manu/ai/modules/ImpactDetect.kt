@@ -4,6 +4,7 @@
 // Generated: 2026-06-25
 
 package com.manu.ai.modules
+import com.facebook.react.modules.core.DeviceEventManagerModule
 
 import android.content.Context
 import android.hardware.Sensor

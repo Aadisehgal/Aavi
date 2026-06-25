@@ -1,5 +1,3 @@
-import com.facebook.react.ReactPackage
-import com.facebook.react.bridge.NativeModule
 // MANU AI — J.A.R.V.I.S. Edition v2.0
 // Part 12/20 — Local LLM Core
 // File: android/app/src/main/java/com/manu/ai/modules/LocalLLMPackage.kt

@@ -43,7 +43,7 @@ class NotificationPackage(reactContext: ReactApplicationContext) : ReactContextB
         try {
             val context = reactApplicationContext
             val enabled = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1) {
-                context.getSystemService(Context.NOTIFICATION_SERVICE) is android.service.notification.NotificationManager &&
+                context.getSystemService(Context.NOTIFICATION_SERVICE) is android.app.NotificationManager &&
                         Settings.Secure.getString(context.contentResolver, "enabled_notification_listeners")?.contains(context.packageName) == true
             } else {
                 Settings.Secure.getString(context.contentResolver, "enabled_notification_listeners")?.contains(context.packageName) == true
