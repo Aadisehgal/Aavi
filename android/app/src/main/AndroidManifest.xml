@@ -43,7 +43,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:allowBackup="false"
         android:theme="@style/AppTheme"
-        android:extractNativeLibs="true"
+        
         android:usesCleartextTraffic="false">
 
         <activity
@@ -123,4 +123,5 @@
             <action android:name="com.termux.RUN_COMMAND" />
         </intent>
     </queries>
+    <uses-sdk tools:overrideLibrary="com.reactnativecommunity.asyncstorage,com.reactnativecommunity.webview" />
 </manifest>
