@@ -10,6 +10,9 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.74.3",
+    "@react-native/metro-config": "^0.74.3",
+    "metro": "^0.80.0",
+    "metro-config": "^0.80.0",
     "@react-native-async-storage/async-storage": "^1.23.1",
     "react-native-webview": "^13.8.6",
     "react-native-tts": "^4.1.0",
