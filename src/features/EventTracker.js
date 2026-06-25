@@ -137,7 +137,7 @@ class EventTracker {
     const giftIdeas = this.suggestGifts(event.type, event.personName);
     const title = daysUntil === 0 ? `🎉 Today: ${event.title}` : `📅 ${event.title} in ${daysUntil} days`;
     const body = daysUntil === 0
-      ? `Don't forget to wish ${event.personName} today!`
+      ? `Do not forget to wish ${event.personName} today!`
       : `Upcoming event. Gift ideas: ${giftIdeas.slice(0, 3).join(', ')}`;
 
     try {

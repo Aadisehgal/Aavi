@@ -573,7 +573,7 @@ export default function SettingsScreen() {
         </View>
       )}
 
-      {/* ─── What's Possible Without Root ─── */}
+      {/* ─── What is Possible Without Root ─── */}
       {renderSectionHeader('Help')}
       {renderCard(
         <TouchableOpacity style={styles.helpRow} onPress={() => setHelpDialogVisible(true)}>

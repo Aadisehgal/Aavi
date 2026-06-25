@@ -26,7 +26,7 @@ class MemoryHandler {
     this.log = [];
     this.maxLog = 100;
     this.monitorInterval = null;
-    this.protectedApps = ['com.manu.ai']; // Don't kill self
+    this.protectedApps = ['com.manu.ai']; // Do not kill self
     this.loadData();
   }
 

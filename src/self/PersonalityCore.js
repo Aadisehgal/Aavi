@@ -33,7 +33,7 @@ const JARVIS_PERSONALITIES = {
   tony: {
     id: 'tony',
     name: 'Tony Mode',
-    greeting: "Yo! MANU here. What's the mission?",
+    greeting: "Yo! MANU here. What is the mission?",
     success: "Done and done! Like taking candy from a baby.",
     failure: "Oof. That did not work. Want me to try something else?",
     warning: "Heads up — that looks sketchy. Sure you want to proceed?",
@@ -62,7 +62,7 @@ const JARVIS_PERSONALITIES = {
     failure: "Oh no, that did not work. Let me try another way!",
     warning: "Hmm, that might not be safe. Want to check with your parent?",
     humor: "Someone's got jokes! Noted for the report. 😊",
-    protect: "Don't worry, I've got your back! Shield up!",
+    protect: "Do not worry, I have got your back! Shield up!",
     tone: 'friendly',
     energy: 0.8
   }

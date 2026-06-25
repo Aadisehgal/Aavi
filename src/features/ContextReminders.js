@@ -182,7 +182,7 @@ class ContextReminders {
     const presets = [
       {
         title: 'Umbrella Check',
-        message: 'It looks like rain today. Don't forget your umbrella!',
+        message: 'It looks like rain today. Do not forget your umbrella!',
         context: { type: 'weather', condition: 'rain' },
         options: { recurring: true, maxTriggersPerDay: 1, priority: 'low' },
       },
