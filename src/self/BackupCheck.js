@@ -152,7 +152,7 @@ class BackupCheck {
   }
 
   async fixFromRedundantCopy(backupId) {
-    // Check if there's a redundant copy
+    // Check if there is a redundant copy
     const redundantKey = `@manu_ai/backup_redundant_${backupId}`;
     try {
       const stored = await AsyncStorage.getItem(redundantKey);

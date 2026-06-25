@@ -225,7 +225,7 @@ export async function authenticate({ allowPinFallback = false, pin = '' } = {}) 
 // ============================================================================
 
 /**
- * Detect panic / stress in user's voice.
+ * Detect panic / stress in users voice.
  * Analyzes pitch jitter, shimmer, variance, and speech rate.
  * Compares against owner baseline saved during enrollment.
  *

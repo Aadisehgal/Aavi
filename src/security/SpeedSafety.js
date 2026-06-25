@@ -115,7 +115,7 @@ class SpeedSafety {
     try {
       if (LocationModule && LocationModule.setAutoReply) {
         await LocationModule.setAutoReply({
-          message: "I'm currently driving and will respond when it's safe to do so. — MANU AI",
+          message: "I am currently driving and will respond when it's safe to do so. — MANU AI",
           enabled: true,
         });
       }

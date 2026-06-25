@@ -59,9 +59,9 @@ class StrangerDanger {
 
     const lowerMsg = message.toLowerCase();
     const dangerPatterns = [
-      { pattern: /(meet me|come alone|don't tell|secret|special friend)/i, type: 'grooming', severity: 'critical' },
+      { pattern: /(meet me|come alone|do not tell|secret|special friend)/i, type: 'grooming', severity: 'critical' },
       { pattern: /(send.*photo|send.*picture|what.*wearing)/i, type: 'inappropriate', severity: 'critical' },
-      { pattern: /(your parents|mom|dad).*won't know/i, type: 'manipulation', severity: 'high' },
+      { pattern: /(your parents|mom|dad).*will not know/i, type: 'manipulation', severity: 'high' },
       { pattern: /(money|gift|prize|won|click.*link)/i, type: 'scam', severity: 'medium' },
       { pattern: /(where.*live|address|school|home)/i, type: 'info_harvesting', severity: 'high' },
     ];

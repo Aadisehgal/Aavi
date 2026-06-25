@@ -17,7 +17,7 @@ export function useChat() {
     return `You are ${settings.assistantName}, a helpful AI assistant for ${settings.userName}. 
 You communicate in ${lang}.
 Current detected emotion: ${emotion}.
-Respond empathetically to the user's emotional state.
+Respond empathetically to the users emotional state.
 Be concise but helpful. If the user asks to open apps, make calls, or control device features, acknowledge and guide them to use voice commands.
 You can also help with ethical hacking tools, password analysis, and security education.`;
   }, [settings, messages]);

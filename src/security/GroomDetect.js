@@ -10,17 +10,17 @@ const { SMSModule } = NativeModules;
 
 const GROOMING_PATTERNS = [
   { pattern: /(special friend|secret friend|our little secret)/i, stage: 'trust_building', severity: 'high' },
-  { pattern: /(don't tell|between us|no one needs to know)/i, stage: 'isolation', severity: 'critical' },
-  { pattern: /(you're mature|so grown up|older than your age)/i, stage: 'flattery', severity: 'high' },
+  { pattern: /(do not tell|between us|no one needs to know)/i, stage: 'isolation', severity: 'critical' },
+  { pattern: /(you are mature|so grown up|older than your age)/i, stage: 'flattery', severity: 'high' },
   { pattern: /(send.*pic|photo|video|see you)/i, stage: 'sexualization', severity: 'critical' },
   { pattern: /(meet.*alone|come over|pick you up)/i, stage: 'meeting', severity: 'critical' },
   { pattern: /(your parents|mom|dad).*angry|upset|mad/i, stage: 'undermining', severity: 'high' },
-  { pattern: /(i love you|you're beautiful|thinking about you)/i, stage: 'emotional', severity: 'medium', context: 'rapid_escalation' },
+  { pattern: /(i love you|you are beautiful|thinking about you)/i, stage: 'emotional', severity: 'medium', context: 'rapid_escalation' },
   { pattern: /(gift|money|present|buy you)/i, stage: 'grooming', severity: 'high' },
 ];
 
 const RAPID_ESCALATION = [
-  'i love you', 'you're special', 'beautiful', 'thinking about you',
+  'i love you', 'you are special', 'beautiful', 'thinking about you',
 ];
 
 class GroomDetect {

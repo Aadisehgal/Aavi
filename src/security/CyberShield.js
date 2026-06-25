@@ -15,7 +15,7 @@ const TOXIC_PATTERNS = [
   { pattern: /(shut up|stfu|idiot|dumb|retard)/i, type: 'insult', severity: 'medium' },
   { pattern: /(spread.*rumor|telling everyone|everyone knows)/i, type: 'rumor_spreading', severity: 'high' },
   { pattern: /(screenshot|record|blackmail|expose)/i, type: 'threat', severity: 'critical' },
-  { pattern: /(you're.*dead|i'm.*hurt you|come.*find you)/i, type: 'physical_threat', severity: 'critical' },
+  { pattern: /(you are.*dead|i'm.*hurt you|come.*find you)/i, type: 'physical_threat', severity: 'critical' },
 ];
 
 class CyberShield {

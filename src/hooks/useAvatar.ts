@@ -35,7 +35,7 @@ export function useAvatar() {
           setAdError('Ad was not completed. Avatar change cancelled.');
         }
       } else {
-        // Ad didn't load within 30 seconds, allow free change
+        // Ad did not load within 30 seconds, allow free change
         setSettings({currentAvatar: avatarName});
       }
     } catch (error) {

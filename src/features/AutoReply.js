@@ -9,9 +9,9 @@ const { NotificationListenerModule } = NativeModules;
 const STORAGE_KEY = '@manu_ai_autoreply';
 
 const DEFAULT_RULES = [
-  { id: '1', trigger: 'driving',  message: "I'm driving right now. I'll reply when I'm safe. — MANU AI", active: true },
-  { id: '2', trigger: 'meeting',  message: "I'm in a meeting. I'll get back to you shortly. — MANU AI",  active: true },
-  { id: '3', trigger: 'sleeping', message: "I'm unavailable right now. Expect a reply soon. — MANU AI",  active: false },
+  { id: '1', trigger: 'driving',  message: "I am driving right now. I'll reply when I am safe. — MANU AI", active: true },
+  { id: '2', trigger: 'meeting',  message: "I am in a meeting. I'll get back to you shortly. — MANU AI",  active: true },
+  { id: '3', trigger: 'sleeping', message: "I am unavailable right now. Expect a reply soon. — MANU AI",  active: false },
 ];
 
 class AutoReply {

@@ -120,7 +120,7 @@ class HealthReminders {
       },
       sleep: {
         title: '🌙 Sleep Reminder',
-        body: 'It's time to wind down for better sleep.',
+        body: 'It is time to wind down for better sleep.',
         action: 'Prepare for bed',
       },
     };

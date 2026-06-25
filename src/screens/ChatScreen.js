@@ -34,7 +34,7 @@ export default function ChatScreen({ navigation }) {
   const [messages, setMessages] = useState([
     {
       id: '0', role: 'assistant',
-      text: "Hello. I'm MANU — your J.A.R.V.I.S. AI assistant. How can I help you today?",
+      text: "Hello. I am MANU — your J.A.R.V.I.S. AI assistant. How can I help you today?",
       ts: Date.now(),
     },
   ]);
