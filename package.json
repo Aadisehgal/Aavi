@@ -14,12 +14,7 @@
     "metro": "^0.80.0",
     "metro-config": "^0.80.0",
     "@react-native-async-storage/async-storage": "^1.23.1",
-    "react-native-webview": "^13.8.6",
-    "react-native-tts": "^4.1.0",
-    "react-native-permissions": "^4.1.5",
-    "react-native-device-info": "^11.1.0",
-    "@react-native-community/netinfo": "^11.3.1",
-    "react-native-sensors": "^7.3.6"
+    "react-native-webview": "^13.8.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
